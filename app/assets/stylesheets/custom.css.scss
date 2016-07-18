@@ -1,0 +1,30 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@mixin box_sizing{
+  box-sizing:         border-box;
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  padding-top: 60px;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.debug_dump{
+  clear: both;
+  flaot: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
